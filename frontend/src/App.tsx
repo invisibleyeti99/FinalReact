@@ -674,15 +674,13 @@ class Team extends React.Component < {school:string; name:string; city:string; s
 
       <div>
 
-        <h2>{oneTeam.school}</h2>
+        <h2>School Name: {oneTeam.school}</h2>
 
-        <h3>{oneTeam.name}</h3>
+        <p>Mascot: {oneTeam.name}</p>
 
-        <h3>{oneTeam.city}</h3>
+        <p>City: {oneTeam.city}</p>
 
-        <h3>{oneTeam.state}</h3>
-
-        <h3>    </h3>
+        <p>State: {oneTeam.state}{'\n'}</p>
 
        
 
